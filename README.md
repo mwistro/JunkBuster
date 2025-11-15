@@ -44,7 +44,6 @@ The script shows the size of each folder before cleaning, asks for confirmation,
 python main.py
 ```
 3. Check folder sizes
-
 4. Choose what you want to clean
 
 Done!
