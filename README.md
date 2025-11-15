@@ -1,2 +1,54 @@
-# JunkBuster
-Temp and other junk files cleaner
+```
+       _             _    ____            _            
+      | |           | |  |  _ \          | |           
+      | |_   _ _ __ | | _| |_) |_   _ ___| |_ ___ _ __ 
+  _   | | | | | '_ \| |/ /  _ <| | | / __| __/ _ \ '__|
+ | |__| | |_| | | | |   <| |_) | |_| \__ \ ||  __/ |   
+  \____/ \__,_|_| |_|_|\_\____/ \__,_|___/\__\___|_|   
+                  J U N K B U S T E R                         
+```
+# JunkBuster – Windows Temp Cleaner
+
+JunkBuster is a small personal project I created to automate the cleanup of Windows temporary files and save some time during my daily use.  
+Since it might be useful to others, I decided to share it here on GitHub.
+
+The script shows the size of each folder before cleaning, asks for confirmation, and reports how much space was freed.
+
+## Features
+- Shows the size of all target folders on launch  
+- Cleans only **safe** Windows folders  
+- Deletes only the content inside the folders  
+- Displays size before and after cleaning  
+- Shows the total amount of space removed  
+- Ignores locked files to avoid interruptions  
+
+## Safe Folders Cleaned
+- `%TEMP%` (User Temp)  
+- `C:\Windows\Temp`  
+- `C:\Windows\Logs\CBS`  
+- `C:\Windows\Minidump`  
+
+## Requirements
+- Python 3.x  
+- Windows OS
+
+## How to Use
+1. Download or clone the repository  
+2. Run the script:
+
+```bash
+python main.py
+```
+Check folder sizes
+
+Choose what you want to clean
+
+Done!
+
+License
+MIT License
+
+yaml
+Copy code
+
+---
