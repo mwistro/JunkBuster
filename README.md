@@ -39,11 +39,17 @@ The script shows the size of each folder before cleaning, asks for confirmation,
 ```bash
 python main.py
 ```
-Check folder sizes
+3. Check folder sizes
 
-Choose what you want to clean
+4. Choose what you want to clean
 
 Done!
+
+## Windows Executable
+
+A standalone Windows `.exe` version of JunkBuster is now included in the project.  
+You can find it`(main.exe)` inside the `/dist` folder.  
+This allows you to use the tool without having Python installed.
 
 License
 MIT License
